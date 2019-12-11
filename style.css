@@ -1,0 +1,57 @@
+body{
+	background-color: #FFD369;
+	color: #940A37);
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif}
+a{
+	text-decoration: none;
+	color: #FFA069;
+	font-weight: bold;
+	transition: color 0.3s ease}
+
+p{
+	text-align: justify}
+
+h1, h2{
+	color: #461220;
+	font-family: 'Roboto', sans-serif}
+
+h1{
+	font-weight: bolder;
+	letter-spacing: 5px;
+	font-size: 30px}
+h2{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 24px}
+
+.container {width: 700px
+margin: 40px auto}
+
+.card-white {background-color: white ; padding: 40px ; 
+	box-shadow: 0px 10px 30px rgba(O,0,0,0.1) ; 
+	border-radius: 5px ; margin: 20px 0px ; text-align: center}
+
+.img-circle {border-radius: 50% ; font-size: 50px ; width: 150px ;}
+
+.btn-orange {background-color: #FFA069 ; color: white ; padding: 15px 20px ; border-radius : 4px;}
+
+.btn-orange:hover {background-color: #F45905 ; color: white ; transition: color 0.3s ease}
+
+.list-inline {list-style: none; padding-left: 0px}
+
+.list-inline li{display: inline : padding10px}
+
+.list-inline i{font-size: 50px ; color:#FFA069}
+
+.list-inline i:hover {font-size: 50px ; color:#F45905 ; transition: color 0.3s ease}
+
+#introduction p {margin: 40px;}
+
+@media(max-width: 760px){
+	.container {width: 600px}}
+@media(max-width: 500px){
+	.container {width: 400px}}
